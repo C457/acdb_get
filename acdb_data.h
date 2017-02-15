@@ -1,6 +1,7 @@
 #define LIB_AUDIO_HAL "audio.primary.msm8996.so"
 
 enum {
+    SND_DEVICE_NONE = 0,
     SND_DEVICE_OUT_HANDSET,
     SND_DEVICE_OUT_SPEAKER,
     SND_DEVICE_OUT_SPEAKER_OFF_DOLBY,
